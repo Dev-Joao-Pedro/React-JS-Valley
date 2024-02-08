@@ -16,7 +16,7 @@ const data = () => {
             <div>
                 <p>Valor: {anotherNumber}</p>
                 <button type='button' onClick={() => setAnotherNumber(20)} style={{marginRight: 5}}>Mudar Valor</button>
-                <button type='button' onClick={() => anotherNumber()}>Voltar ao Valor Inicial</button>
+                <button type='button' onClick={() => setAnotherNumber(10)}>Voltar ao Valor Inicial</button>
             </div>
         </div>
     )
