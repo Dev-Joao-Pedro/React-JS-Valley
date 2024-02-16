@@ -1,0 +1,24 @@
+p {
+    color: #00ff00;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+}
+
+.component-paragraph {
+    color: #000000;
+    background-color: #ffff00;
+    border: 3px dotted #000000;
+}
+
+.gold-title {
+    background-color: #000000;
+    color: gold;
+    padding: 15px;
+    border: 5px solid #ff0000;
+}
+
+.red-title {
+    background-color: #000000;
+    color: #ff0000;
+    border: 5px solid gold;
+}

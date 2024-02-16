@@ -1,0 +1,19 @@
+import { useState } from 'react'
+import './App.css'
+
+// Meu Componentes
+import MyForm from './components/myForm'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <h1>FORM - PAGE</h1>
+      <hr />
+      <MyForm user={{ nome: 'EU MSM', email: 'eumsm@teste.com.br', bio: 'EU sou dev', role: 'dev' }} />
+    </>
+  )
+}
+
+export default App
