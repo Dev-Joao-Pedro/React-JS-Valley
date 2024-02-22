@@ -41,24 +41,3 @@
   color: #888;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-form input {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 15px;
-}
-
-button {
-  margin-left: 10px;
-}
-
-ul li {
-  list-style-type: none;
-  margin-bottom: 10px;
-}

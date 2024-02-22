@@ -29,26 +29,6 @@ function App() {
     httpConfig(id, 'DELETE')
   }
 
-/*
-  const [products, setProducts] = useState([])
-  const [name, setName] = useState('')
-  const [price, setPrice] = useState('')
-
-  useEffect(() => {
-    async function effectData() {
-      const res = await fetch(url)
-      const data = await res.json()
-      setProducts(data)
-    }
-    effectData()
-  }, [])
-
-  // HTTP - post
-  const handleSubmit = async (e) => {
-
-  }
-*/
-
   return (
     <>
       <h1>Lista de produtos</h1>
