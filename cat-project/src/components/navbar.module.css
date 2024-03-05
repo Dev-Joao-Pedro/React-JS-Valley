@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 50px;
+  background-color: pink;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+}
+
+.navItem {
+  margin: 0 10px;
+  background-color: burlywood;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+}

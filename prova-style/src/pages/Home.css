@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+}
+
+.left p {
+    text-align: start;
+    padding: 30px 0px 0px 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.left h1 {
+    text-align: start;
+    padding: 30px 0px 0px 30px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.right img {
+    width: 400px;
+    height: 400px;
+}

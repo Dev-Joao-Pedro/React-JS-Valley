@@ -27,14 +27,14 @@ const Conversor = () => {
     },[rates, amount, fromCurrency, toCurrency] )
 
     return (
-        <div>
+        <div className='converter'>
             <h2>Conversor de Moedas</h2>
             <input 
                 type="number"
                 value={amount}
                 onChange={(e) => setAmount(e.target.value)}
             />
-            <span>Selecion as moedas: </span>
+            <span> Selecione as moedas: </span>
             <select
                 value={fromCurrency}
                 onChange={(e) => setFromCurrency(e.target.value)}
@@ -43,7 +43,7 @@ const Conversor = () => {
                     <option key={currency} value={currency}> { currency }</option>
                 )}
             </select>
-            <span> converter para: </span>
+            <span> Converter para: </span>
             <select
                 value={toCurrency}
                 onChange={(e) => setToCurrency(e.target.value)}

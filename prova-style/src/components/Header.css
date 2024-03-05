@@ -1,0 +1,13 @@
+.header-class {
+    height: 100px;
+    background-color: #42426F;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.h1-header {
+    color: #ffffff;
+}
